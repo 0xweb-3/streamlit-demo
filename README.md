@@ -13,12 +13,12 @@ uv add streamlit
 ## 简单运行
 
 ```shell
- streamlit run ./demo/01.py
+streamlit run ./demo/01.helloworld.py
 ```
 
 ## 进度
 
-* v1.1.0 helloworld
+* v1.1.0 helloworld✅
 * v1.2.0 表格-图表组件
 * v1.3.0 交互控件
 * v1.4.0 界面布局
