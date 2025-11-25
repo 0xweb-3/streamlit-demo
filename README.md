@@ -24,4 +24,4 @@ streamlit run ./demo/01.helloworld.py
 * v1.4.0 界面布局✅
 * v1.5.0 会话状态✅
 * v1.6.0 控件key参数介绍✅
-* v1.7.0 控件key参数互动
+* v1.7.0 控件key参数互动✅
