@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  postgres:
+    build: .
+    container_name: pg_jieba
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: testdb
+    ports:
+      - "5432:5432"
+    volumes:
+      # 数据卷用于持久化数据库
+      - pg_data:/var/lib/postgresql/data
+      # 将 init.sql 放入容器，第一次启动执行
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    restart: unless-stopped
+
+volumes:
+  pg_data:
