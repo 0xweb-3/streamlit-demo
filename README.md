@@ -26,6 +26,4 @@ streamlit run ./demo/01.helloworld.py
   * v1.6.0 控件key参数介绍✅
   * v1.7.0 控件key参数互动✅
 * v2.0.0 pg_jieba的使用✅
-* v3.0.0 vector
-  * v3.1.0 单独在pg 中安装vector
-  * v3.2.0 同时安装pg_jieba和vector
+* v3.0.0 同时安装pg_jieba和vector✅
